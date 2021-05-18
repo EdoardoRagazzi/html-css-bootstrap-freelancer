@@ -26,7 +26,8 @@
     border-radius: 20px;
 }
 /*----------ABOUT-----------*/
-.about, .contact {background-color: #1ABC9C;
+.about, .contact {
+    background-color:white;
     height: 200px;
     width: 100%;
 }

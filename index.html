@@ -121,21 +121,35 @@
     </div>
     <!---------CONTACT ME------------>
     <div class="container contact">
-        <div class="row">
+        <div class="row gy-5">
             <div class="col">
-                <div class="title row">
+                <div class="row title gy-5">
                     <h2 class="text-center">contact me</h2>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
+                <div class="row justify-content-center g-3">
+                    <div class="col-6">
+                        <div class=" form-floating p-2">
+                            <input type="name" class="form-control" id="floatingName" placeholder="Name">
+                            <label for="floatingName">Name</label>
                         </div>
-                        <div class="form-floating">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Password</label>
+                        <div class="form-floating p-2">
+                            <input type="email" class="form-control" id="floatingEmail" placeholder="EmailAddress">
+                            <label for="floatingEmail">Email address</label>
                         </div>
+                        <div class="form-floating p-2">
+                            <input type="phone" class="form-control" id="floatingPhone" placeholder="Password">
+                            <label for="floatingPhone">Phone Number</label>
+                        </div>
+                        <div class="form-floating p-2">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingMessage"
+                                style="height: 200px"></textarea>
+                            <label for="floatingMessage">Message</label>
+                        </div>
+                        <div class="form-floating p-2">
+                            <button type="button" class="btn btn-success p-2 ">Send</button>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
