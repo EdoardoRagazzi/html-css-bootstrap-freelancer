@@ -1,9 +1,12 @@
+/*----------NAV----------- */
 .container_nav{
     background-color: #2C3E50;
 }
 .nav-item a{
     font-size: 12px;
 }
+/*---------END NAV---------*/
+/*---------JUMBOTROON-------*/
 .jumbotroon{
     background-color: #1ABC9C;
     height: 600px;
@@ -16,7 +19,16 @@
     height: 20%;
     width: 20%;
     left: 50%;
-    top:50%;
+    top:30%;
     text-align: center;
     transform: translate(-50%, -50%);
+    display: inline-block;
+}
+/*-------PORTFOLIO------ */
+.title{
+    width: 100%;
+}
+.immagine, .immagine img{
+    width: 100%;
+    border-radius: 20px;
 }
