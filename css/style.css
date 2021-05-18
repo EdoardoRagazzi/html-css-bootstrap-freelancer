@@ -9,20 +9,13 @@
 /*---------JUMBOTROON-------*/
 .jumbotroon{
     background-color: #1ABC9C;
-    height: 600px;
+    height: 400px;
     width: 100%;
-    overflow-x: hidden;
-    position: relative;
 }
-.image{
-    position: absolute;
-    height: 20%;
-    width: 20%;
-    left: 50%;
-    top:30%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    display: inline-block;
+.image img{
+
+   text-align: center;
+   justify-content: center;
 }
 /*-------PORTFOLIO------ */
 .title{
@@ -31,4 +24,9 @@
 .immagine, .immagine img{
     width: 100%;
     border-radius: 20px;
+}
+/*----------ABOUT-----------*/
+.about, .contact {background-color: #1ABC9C;
+    height: 200px;
+    width: 100%;
 }
