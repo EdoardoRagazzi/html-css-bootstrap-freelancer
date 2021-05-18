@@ -26,8 +26,30 @@
     border-radius: 20px;
 }
 /*----------ABOUT-----------*/
-.about, .contact {
-    background-color:white;
-    height: 200px;
+.about  {
+    background-color:#1ABC9C;
+    height: 300px;
     width: 100%;
+}
+.contact{
+    background-color: tomato;
+    height: 600PX;
+    width: 100%;;
+}
+
+/*-----BUTTON-----*/
+.form-control{
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+}
+/*--------FOOTER--------*/
+.footer{
+    background-color:#3A546D;
+    overflow-x: hidden;
+}
+.coopyright{
+    height: 100px;
+    background-color: #2C3E50;
+    color: white;
+    line-height: 100px;
 }
