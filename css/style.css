@@ -76,4 +76,10 @@ footer{
     color: white;
     line-height: 100px;
 }
+.circle{
+    width: 50px;
+   border: 1px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+}
 
