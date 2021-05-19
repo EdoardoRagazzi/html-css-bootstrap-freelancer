@@ -7,13 +7,23 @@
 }
 /*---------END NAV---------*/
 /*---------JUMBOTROON-------*/
-.jumbotroon{
+#jumbotroon{
     background-color: #1ABC9C;
-    height: 400px;
+    min-height: 600px;
     width: 100%;
+    color: white;
 }
-.image img{
+#jumbotroon h4{
+    padding-top: 20px;
+    color
+}
+.image h1{
+    text-align: center;
+}
 
+.image img{
+   width: 20%;
+   height:20%;
    text-align: center;
    justify-content: center;
 }
@@ -32,7 +42,7 @@
     width: 100%;
 }
 .contact{
-    background-color: tomato;
+    background-color:white;
     height: 600PX;
     width: 100%;;
 }
@@ -52,4 +62,18 @@
     background-color: #2C3E50;
     color: white;
     line-height: 100px;
+}
+.progress{
+    background-color:white;
+    width: 5vw;
+    min-width: 60px;
+    height: 3px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.bar{
+    height:30px;
+    line-height: 30px;
 }
