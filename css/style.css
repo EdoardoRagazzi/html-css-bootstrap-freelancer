@@ -78,6 +78,7 @@ footer{
 }
 .circle{
     width: 50px;
+    height: 60px;
    border: 1px solid white;
     border-radius: 50%;
     vertical-align: middle;
@@ -100,7 +101,7 @@ footer{
     text-align: center;
 }
 .cover-container:hover .image{
-    opacity: 0.3;
+    opacity: 0.6;
 }
   
 .cover-container:hover .cover-layover {
